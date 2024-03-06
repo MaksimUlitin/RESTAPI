@@ -1,11 +1,12 @@
 package main
 
 import (
+	"log"
+
 	restApi "github.com/MaksimUlitin"
 	"github.com/MaksimUlitin/pkg/handler"
 	"github.com/MaksimUlitin/pkg/repository"
 	"github.com/MaksimUlitin/pkg/service"
-	"log"
 )
 
 func main() {

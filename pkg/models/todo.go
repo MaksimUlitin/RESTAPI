@@ -1,9 +1,9 @@
 package restApi
 
 type TodoList struct {
-	id          int    `json:"id" :"id"`
-	title       string `json:"title" :"title"`
-	Description string `json:"description" :"description"`
+	Id          int    `json:"id"`
+	Title       string `json:"title"`
+	Description string `json:"description"`
 }
 
 type UserList struct {
